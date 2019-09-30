@@ -11,7 +11,7 @@
 	
 	FileInputStream in=new FileInputStream(sFilePath);
 	
-	//response 헤더 설정
+	//response 헤더 설정 설정
 	response.setContentType("application/octet-stream");
 	String agent=request.getHeader("User-Agent");
 	
